@@ -123,7 +123,7 @@
 							</li>
 							<!-- Menu Body -->
 							@role("SUPER_ADMIN")
-							{{--  <li class="user-body">
+							 <li class="user-body">
 								<div class="col-xs-6 text-center mb10">
 									<a href="{{ url(config('laraadmin.adminRoute') . '/lacodeeditor') }}"><i class="fa fa-code"></i> <span>Editor</span></a>
 								</div>
@@ -139,7 +139,7 @@
 								<div class="col-xs-6 text-center">
 									<a href="{{ url(config('laraadmin.adminRoute') . '/backups') }}"><i class="fa fa-hdd-o"></i> <span>Backups</span></a>
 								</div>
-							</li>  --}}
+							</li> 
 							@endrole
 							<!-- Menu Footer-->
 							<li class="user-footer">
